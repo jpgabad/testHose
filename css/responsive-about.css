@@ -1,5 +1,10 @@
 /* iphone 6, 6s, 7, 8 */
-@media  (min-width: 375px) and (max-width: 499.98px) {
+@media   (max-width: 499.98px) {
+
+  header{
+    margin-top: 82.5px;
+  }
+
     header p {
         font-family: 'Aclonica', sans-serif !important;
         font-size: 16px;
