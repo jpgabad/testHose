@@ -1,0 +1,29 @@
+.sub-img{
+    width: 200px;
+}
+
+.category{
+    background-color: var(--color1);
+    padding: 10px;
+    width: 330px;
+    clip-path: polygon(0% 0%, 83% 0%, 100% 100%, 0% 100%);
+    margin-bottom: 1rem;
+}
+
+.category2{
+    background-color: var(--color1);
+    padding: 10px;
+    width: 330px;
+    clip-path: polygon(0% 0%, 83% 0%, 100% 100%, 0% 100%);
+    margin-bottom: 1rem;
+}
+
+
+
+.category h6{
+    color: var(--white);
+}
+
+.category2 h6{
+    color: var(--white);
+}

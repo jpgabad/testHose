@@ -1,0 +1,200 @@
+/* iphone 6, 6s, 7, 8 */
+@media  (min-width: 375px) and (max-width: 499.98px) {
+    header p {
+        font-family: 'Aclonica', sans-serif !important;
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--white);
+    }
+    header .h1-container .grow {
+        padding: 0px !important;
+    }
+
+
+    .about-section3{
+        background-color: var(--color2);
+        background-image: url('../img/path54.png');
+        background-position: 100% 50%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100%; /* Resize the background image to cover the entire container */
+    
+      }
+
+      .about-section3 h3, .about-section3 p{
+        color: var(--white);
+      }
+
+      .about-section3 .arrow-container a{
+        color: var(--white) !important;
+      }
+
+      .about-section3 .orange{
+        color: var(--white);
+    }
+
+    .about-section3  ul li {
+        color: var(--white);
+     
+      }
+      
+      .about-section3  .dot{
+
+        background-color: var(--white);
+        
+      }
+}
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 500px) and (max-width: 575.98px) {
+    header p {
+        font-family: 'Aclonica', sans-serif !important;
+        font-size: 16px;
+        line-height: 30px;
+        color: var(--white);
+    }
+    .about-section3{
+        background-color: var(--color2);
+        background-image: url('../img/path54.png');
+        background-position: 100% 50%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100%; /* Resize the background image to cover the entire container */
+    
+      }
+
+      .about-section3 h3, .about-section3 p{
+        color: var(--white);
+      }
+
+      .about-section3 .arrow-container a{
+        color: var(--white) !important;
+      }
+
+      .about-section3 .orange{
+        color: var(--white);
+    }
+
+    .about-section3  ul li {
+        color: var(--white);
+     
+      }
+      
+      .about-section3  .dot{
+
+        background-color: var(--white);
+        
+      }
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .about-section3{
+        background-color: var(--color2);
+        background-image: url('../img/path54.png');
+        background-position: 100% 50%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100%; /* Resize the background image to cover the entire container */
+    
+      }
+
+      .about-section3 h3, .about-section3 p{
+        color: var(--white);
+      }
+
+      .about-section3 .arrow-container a{
+        color: var(--white) !important;
+      }
+
+      .about-section3 .orange{
+        color: var(--white);
+    }
+
+    .about-section3  ul li {
+        color: var(--white);
+     
+      }
+      
+      .about-section3  .dot{
+
+        background-color: var(--white);
+        
+      }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .about-section3{
+        background-color: var(--color2);
+        background-image: url('../img/path54.png');
+        background-position: 100% 50%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100%; /* Resize the background image to cover the entire container */
+    
+      }
+
+      .about-section3 h3, .about-section3 p{
+        color: var(--white);
+      }
+
+      .about-section3 .arrow-container a{
+        color: var(--white) !important;
+      }
+
+      .about-section3 .orange{
+        color: var(--white);
+    }
+
+    .about-section3  ul li {
+        color: var(--white);
+     
+      }
+      
+      .about-section3  .dot{
+
+        background-color: var(--white);
+        
+      }
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1000.98px) { 	
+
+    .about-section3{
+        background-color: var(--color3);
+        background-image: url('../img/path5.png');
+        background-position: 100% 50%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 100% 100%; /* Resize the background image to cover the entire container */
+    
+      }
+		
+}
+@media (min-width: 1001px) and (max-width: 1199.98px) { 	
+
+		
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.section1 .bg-ellipse{
+
+    }
+    
+    .section1 .bg-arrow{
+
+    }
+    
+    .section1 .bg-org{
+    
+    }
+}
+
+
+

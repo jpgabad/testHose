@@ -1,0 +1,242 @@
+header{
+    padding-top: 80px;
+    position: relative;
+    margin-top: 112.5px;
+}
+
+header p {
+    font-family: 'Aclonica', sans-serif !important;
+    font-size: 22px;
+}
+
+header .h1-container h2 div{
+font-size: 80px;
+font-family: 'Aclonica', sans-serif !important;
+}
+
+header .h1-container h2{
+    font-size: 80px;
+    font-family: 'Aclonica', sans-serif !important;
+    }
+
+header .letter-animation p{
+    font-size: 200px !important;
+    color: var(--color1) !important;
+    line-height: 140px;
+}
+
+header .grow, header .adapt, header .thrive{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+header .adapt{
+    padding-left: 70px;
+}
+
+header .thrive{
+    padding-left: 140px;
+}
+
+header .padding70{
+    padding-left: 70px;
+}
+
+header .padding140{
+    padding-left: 140px;   
+}
+
+.arrow-animation{
+   padding-left: 20px;
+}
+
+.background-letter{
+    position: absolute;
+    top: 0px;
+    left: -250px;
+    opacity: .2;
+    z-index: -100;
+}
+
+.letter-animation{
+    line-height: 140px;
+}
+
+#text {
+    padding: 0 10px 0 0;
+    margin: 0;
+    border: 1px solid red;
+  }
+  
+  #cursor {
+    margin: 0;
+    display: inline-block;
+  }
+  
+
+  .ellipse{
+    position: absolute;
+    top: 10px;
+    right: -20px;
+  }
+
+
+  /*************************************************************
+  *     HOME SECTION 1
+  **************************************************************/
+.section1{
+    position: relative;
+    margin-bottom: 0px !important;
+}
+
+.section1 .how-container img{
+    margin: auto;
+    padding-top: 10px;
+}
+
+.section1 .bg-ellipse,
+.section1 .bg-arrow,
+.section1 .bg-org{
+    position: absolute;
+}
+
+.section1 .bg-ellipse{
+    top: 0px;
+    left: -120px;
+    z-index: -100px;
+}
+
+.section1 .bg-arrow{
+    bottom: 100px;
+    left: 0px;
+    z-index: -100px;
+}
+
+.section1 .bg-org{
+    top: -260px;
+    right: -140px;
+    z-index: -100px;
+    width: 30%;
+}
+
+.svg-container svg{
+    margin: auto;
+}
+
+
+  /*************************************************************
+  *     HOME SECTION 2
+  **************************************************************/
+.section2{
+    position: relative;
+}
+
+.section2 .box-container{
+    border-radius: 20px;
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: var(--color3);
+    position: relative;
+    padding: 20px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+transition: .8s;
+    
+
+}
+
+/* .section2 .box-container.active{
+    background: rgb(255,154,36);
+    background: linear-gradient(180deg, rgba(255,154,36,1) 0%, rgba(255,92,72,1) 100%);
+
+}
+
+.section2 .box-container:hover{
+    background: rgb(255,154,36);
+    background: linear-gradient(180deg, rgba(255,154,36,1) 0%, rgba(255,92,72,1) 100%);
+
+} */
+
+.section2 .box-container h6{
+    color: var(--white);
+    font-family:  'Oswald', sans-serif !important;
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
+}
+
+.section2 .bg-org1,
+.section2 .bg-org2,
+.section2 .bg-org3{
+    position: absolute;
+}
+
+.section2 .bg-org1{
+    top: 0px;
+    left: -50px;
+}
+
+
+.section2 .bg-org2{
+    bottom: 0px;
+    left: 0px;
+}
+
+.section2 .bg-org3{
+    top: -140px;
+    right: -270px;
+    z-index: -100;
+}
+
+
+
+
+  /*************************************************************
+  *     HOME SECTION 3
+  **************************************************************/
+.section3{
+    background: rgb(255,154,36);
+    background: linear-gradient(180deg, rgba(255,154,36,1) 0%, rgba(255,92,72,1) 100%);
+    min-height: 400px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 h5,
+.section3 p{
+    color: var(--white);
+}
+
+.section3 .box-text {
+    /* border: 3px solid var(--white); */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section3 .box-text h5{
+    font-size: 3rem !important;
+    
+}
+
+
+
+
+  /*************************************************************
+  *     HOME SECTION 4
+  **************************************************************/
+
+.section4 h3{
+    color: var(--color1);
+}
+  

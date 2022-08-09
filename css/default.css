@@ -1,0 +1,341 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+/*VARIABLE*/
+:root {
+  --color1: #FF5C48;
+  --color2: #FF9A24;
+  --color3: #006468;
+  --white: #ffffff;
+  --black: #121622;
+  --gray: #c5c5c5;
+  --default-font: 'Oswald', sans-serif;
+  --heading-font:  'Aclonica', sans-serif !important;
+
+
+}
+
+/*DEFAULT*/
+* {
+  font-family: var(--default-font) !important;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+    */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+	2. Remove default margin
+  */
+* {
+  margin: 0;
+ 
+}
+
+.container-fluid{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/*
+	3. Allow percentage-based heights in the application
+  */
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  font-size: 20px;
+  
+
+}
+/*
+	Typographic tweaks!
+	4. Add accessible line-height
+	5. Improve text rendering
+  */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+  
+}
+/*
+	6. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+	7. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+	8. Avoid text overflows
+  */
+h1{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Aclonica', sans-serif !important;
+}
+
+h2{
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-family: 'Aclonica', sans-serif !important;
+}
+h3{
+  font-family: 'Aclonica', sans-serif !important;
+  text-transform: uppercase;
+}
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  color: var(--black);
+  font-family: var(--heading-font) !important;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--default-font);
+  color: var(--black);
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+
+/*
+	9. Create a root stacking context
+  */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+a{
+  font-size: 1rem !important;
+}
+a:link {
+  color: var(--white) !important;
+  cursor: pointer;
+}
+a:hover {
+  color: var(--black) !important;
+  cursor: pointer;
+}
+a:visited {
+  color: var(--black);
+  /*text-decoration: underline;
+	cursor: auto;*/
+}
+a:link:active {
+  /*text-decoration: underline;*/ /*
+		color: (internal value);*/
+    color: var(--black) !important;
+}
+a:visited:active {
+
+color: var(--black) !important;
+}
+
+
+.cs-btn-orange{
+  color: var(--white) !important;
+  background-color: var(--color5);
+  padding: 10px 20px;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cs-btn-orange:hover{
+  color: var(--white) !important;
+  background-color: var(--color2);
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+  transition: .5s;
+}
+
+.cs-btn-green{
+  color: var(--black) !important;
+  background-color: var(--color1);
+  padding: 20px 20px;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.cs-btn-green:hover{
+  color: var(--color1) !important;
+  background-color: var(--black);
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+  transition: .5s;
+}
+
+
+.vh60{
+  height: 80vh;
+}
+
+
+
+/* CUSTOM STYLES */
+.border-top-green{
+  width: 100%;
+  height: 5px;
+  background-color: var(--color1);
+  margin-bottom: 2rem;
+}
+
+.border-top-black{
+  width: 100%;
+  height: 5px;
+  background-color: var(--black);
+  margin-bottom: 2rem;
+}
+
+/* HEADING  */
+
+
+/* FONT-COLOR */
+
+
+/* FONT-WIEGHT */
+
+
+/* Button */
+
+/* SHADOW */
+
+/* BACKGROUND TRANSITIONS */
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: none;
+  color: var(--copperCrayola);
+  outline: 3px solid var(--copperCrayola);
+  font-weight: 800;
+}
+
+
+/* BACKGROUND */
+
+/* MARGIN */
+.margin-left-neg70{
+  margin-left: -70px;
+}
+
+/* SECTION */
+section{
+  min-height: 500px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+ 
+}
+
+.center{
+  display: flex;
+  align-items: center;
+}
+
+/* BORDER */
+
+
+
+/* SECTION */
+section{
+  padding: 70px 0px;
+  margin-bottom: 40px;
+}
+
+
+
+/* FOOTER */
+.footer{
+  padding-top: 50px;
+  background-color: var(--color1);
+  
+}
+
+footer ul li{
+  list-style: none;
+  padding: 20px 30px;
+  margin-top: 20px;
+  
+}
+
+footer ul li a {
+  color: var(--white) !important;
+}
+
+
+
+footer ul li a:hover {
+  color: var(--white) !important;
+  text-decoration: none;
+}
+
+
+
+footer ul {
+  display: flex;
+ padding: 0px;
+}
+
+
+.orange{
+  color: var(--color1);
+}
+
+ul li {
+  
+}
+
+.footer p {
+  color: var(--white) !important;
+ 
+}
+
+footer .navbar-nav{
+  flex-direction: row !important;
+}
+
+
+
