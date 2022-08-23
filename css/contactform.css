@@ -1,45 +1,17 @@
 /* CONTACT FORM */
 .contact-section{
-    background-color: var(--color3);
-    /* margin-top: -100px; */
-    /* padding-top: 200px; */
-    background-image: url('../img/contact-bg.png');
-    background-position: 100% 50%; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-
-    
+    background-color: var(--color4);
 }
 
-
-.contact-section{
-    margin-bottom: 0px !important;
-}
-
-.contact-section h2{
-    color: var(--white);
-    text-transform: uppercase;
-}
-
-.contact-section p{
-    font-size: 32px;
-    margin-top: 5rem;
-}
-
-.contact-section .arrow{
-    margin-top: 3rem;
-}
 
 
 .contact-section .btn-orange{
     color: white;
-    background-color: var(--color1);
-    border-radius: 20px !important;
 }
 
 
 .contact-section .btn-orange:hover{
-    background-color: var(--color2);
+    background-color: var(--color3);
     transition: .9s;
 }
 
@@ -50,12 +22,13 @@
 
 
 .contact-section h3 {
-    /* margin-top: 5rem; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 
 .contact-section p {
-    /* margin-bottom: 5rem; */
+    margin-bottom: 5rem;
 }
 
 .contact-form-container{
@@ -63,36 +36,29 @@
     padding: 30px 30px 30px 30px !important;
     border-radius: 20px;
     margin-top: -100px;
-    max-width: 700px;
-    margin: auto;
-    visibility: visible !important;
    
 }
 
-.contact-form-container .cs-btn-green{
-    padding: 10px 20px;
-}
-
 .contact-form-container input, .contact-form-container textarea{
-    border: 1px solid var(--color3) !important;
+    border: 1px solid rgba(31, 107, 135, .5) !important;
 }
 
 
 .contact-form-container input::placeholder{
-    color: var(--gray) !important;
-    font-family: var(--default-font);
+    color: rgba(31, 107, 135, .5) !important;
+    font-family: "brandonGrotesqueRegular";
 }
 
 
 .contact-form-container textarea::placeholder{
-    color: var(--gray) !important;
-    font-family: var(--default-font);
+    color: rgba(31, 107, 135, .5) !important;
+    font-family: "brandonGrotesqueRegular";
 }
 
 /* CONTACT FORM */
 
 .onpage input, .onpage select, .onpage .textarea{
-    color: var(--gray) !important;
+    color: var(--black) !important;
 }
 
 body.modal-open {
@@ -101,7 +67,7 @@ body.modal-open {
 
 
 body.modal-open[style], .navbar {
-    /* padding-right: 0px !important; */
+    padding-right: 0px !important;
 }
 
 .section-dark {
