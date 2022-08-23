@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="apple-touch-icon" sizes="57x57" href="img/favicon_io/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="img/favicon_io/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="img/favicon_io/apple-icon-72x72.png">
@@ -18,50 +18,80 @@
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon_io/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="img/favicon_io/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">  <meta name="msapplication-TileImage" content="img/favicon_io/ms-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon_io/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
-  <title>Social Wheel Services - Services</title>
+  <title>Moreso Services - Services</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/nav-styles.css"> 
-  <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/services.css">
   <link rel="stylesheet" href="css/contactform.css">
   <link rel="stylesheet" href="css/responsive.css"> 
-  <link rel="stylesheet" href="css/responsive-about.css"> 
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/button-animation.css">
   <link rel="stylesheet" href="css/customButton.css">
   <style>
- 
-    </style>
+
+.the-anchor {
+position: relative;
+top: -160px;
+}
+  </style>
+   
 </head>
 <body>
 
 
-<!--Navbar-->
-<nav class="navbar  fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
 
-  <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt=""></a>
+    <!--  Show this only on mobile to medium screens  -->
+      <a class="navbar-brand d-lg-none" href="index.html"><img src="img/logo-mobile.png" width="100%" alt="" ></a>
+    
+  
 
-  <div class="menu-container"  onclick="openNav()">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div>
+      <button class="navbar-toggler" onclick="openNav()" type="button"  aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      
+      </button>
+    
+    <!--  Use flexbox utility classes to change how the child elements are justified  -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarToggle">
+    
+        <ul class="navbar-nav">
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link " href="index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link " href="about.html">ABOUT</a>
+          </li>
+        </ul>
+        
+        
+    <!--   Show this only lg screens and up   -->
+        <a class="navbar-brand d-none d-lg-block" style="margin-right: 0px !important; text-align: -webkit-center;" href="index.html"><img src="img/logo.png" width="100px" alt="" ></a>
+        
+        
+        
+        <ul class="navbar-nav">
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link" >SERVICES</a>
+          </li>
+          <li class="nav-item z-nav-item ">
+            <a class="nav-link " href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+ 
 
-</nav>
 
   <!-- CONTENT FOR MENU -->
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    
     <div class="overlay-content">
-      <!-- <img class="logo" src="img/logo.png" alt=""> -->
-      <div class="line"></div>
       <a href="index.html">Home</a>
       <a href="about.html">About Us</a>
       <a >Services</a>
@@ -71,241 +101,214 @@
 
 
 
-<!--/.Navbar-->
+
+
 
 
 <!-- *************************************************************************
-ABOUT HEADER
+HEADER
 ********************************************************************************-->
-<header >
+<section class="services-header ">
   <div class="container">
-    <div class="row">
-        <div class="col-12">
-          <div class="h1-container">
-            <div class="grow"><h2 >What We Offer</h2></div>
+        <div class="services-header-container">
+          <h3 class="mb-3">Moreso IT Services</h3>
+          <h2>WHAT WE OFFER</h2>
+        </div>
+  </div>
+</section>
 
-         
+<!-- *************************************************************************
+SECTION 1
+********************************************************************************-->
+<section class="services-section1 ">
+  
+  <img class="obj13" src="img/svg/obj1.png" width="10%" alt="">
+  <div class="container">
+    <h2>Improve Your Business Operations Today</h2>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="img-container">
+          <img class="mx-auto" src="img/svg/services5.png" alt="">
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="paragraph-container">
+          <p>It's essential for companies to implement technologies and processes that are compatible with positive change and business growth. Partnering with Moreso IT Services guarantees your ability to increase business output and give more to end-users. Our personable business IT model is designed to provide resources and support to companies looking to boost operational efficiency and foster scalable solutions.</p>
+          <p>We can help you improve your business operations through several means. Whether you want to install an expert management system to oversee business operations or require help managing a help desk function to support staff or customers, we've got you covered. We listen to and concentrate on your business objectives to deliver high-quality software solutions that do away with any ongoing IT issues and provide a clear path to success.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <img class="obj14" src="img/svg/obj1.png" width="10%" alt="">
+</section>
+
+<!-- *************************************************************************
+SECTION 2
+********************************************************************************-->
+<section class="services-section2 ">
+  
+  <img class="obj15" src="img/svg/cog.png" width="10%" alt="">
+  <div class="container">
+    <h2 class="d-none d-sm-none d-md-block d-lg-block s-xl-block">On-Demand Resources <br>To Maximise Workflow Productivity</h2>
+    <h2 class="d-block d-sm-block d-md-none d-lg-none s-xl-none">On-Demand Resources To Maximise Workflow Productivity</h2>
+    <div class="row">
+      
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
+        <div class="paragraph-container">
+          <p>Moreso IT Services support, supplement, collaborate and consult with existing IT departments to help them improve the services they currently offer. We support tech departments with user support and infrastructure maintenance so that they can direct their attention to achieving key business objectives. By allowing businesses to focus on their goals, we’re paving the way for maximum workflow productivity.</p>
+          <p>We have ample resources that facilitate in-house IT teams in performing critical tasks and infrastructure necessities. We combine these resources with our technology expertise to educate IT departments on improving their workflows and getting more out of their existing software.</p>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2">
+        <div class="img-container">
+          <img src="img/svg/services6.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- *************************************************************************
+SECTION 3 
+********************************************************************************-->
+<section class="services-section3 ">
+    <div class="container">
+      <h2>Bespoke Services That Cater To Your Needs</h2>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
+          <p>Moreso IT Services balances your company's requirement for cost control, security and streamlined operations with the need for a scalable and flexible IT environment. Our expert services aid in improving resolution speed and response time, introduce clients to new economies of scale and guarantee timely infrastructure maintenance and risk management. Here's a breakdown of the services we provide:</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2">
+          <div class="img-container mb-5">
+            <img class="mx-auto" src="img/logo-w.png" alt="">
           </div>
-          <div class="right-container">
-          <div class="paragraph-container">
-            <p>MEASURABLE RESULTS TO HELP YOU 
-              GROW YOUR ONLINE PRESENCE</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- *************************************************************************
+SECTION 4
+********************************************************************************-->
+<section  class="services-section4 ">
+    <div class="container">
+      <a id="vendor" class="the-anchor" data-hs-anchor="true"></a>
+      <div class="row ">
+        <div  class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1">
+          <div  class="content-container">
+            <h4>Vendor management</h4>
+            <p>Good vendor management allows businesses to drive service excellence, control and negotiate costs, and maintain positive supplier relations. We can provide expert advice on maintaining proactive vendor-client relationships where both parties achieve maximum gain. Our knowledgeable team can direct you on how to find better deals and secure license renewals to save you time and money.</p>
+            <p>To guarantee a strong trade relationship, we work to gain a deeper understanding of your suppliers, their products, and how they can benefit your team. This helps reduce deliverable trading risks and increases the value exchange between you and vendors.</p>
           </div>
+        </div>
+        <div  class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2">
+          <div class="img-container mb-5">
+            <img class="mx-auto" src="img/svg/services-icon1.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <a id="itroadmap" class="the-anchor" data-hs-anchor="true"></a>
+      <div class="row" >
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+          <div class="img-container mb-5">
+            <img    class="mx-auto"  src="img/svg/services-icon2.png" alt="">
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xl-6  ">
+          <div class="content-container">
+            <h4>IT roadmapping</h4>
+            <p>An essential task for any business is determining its current position and deciding what direction they want to go in. We can work with your company to help answer these questions before creating a custom roadmap that ensures you meet your short-term and long-term goals. Our IT road mapping services make it easier for businesses to proactively contribute to their success by outlining clear action steps and milestones.</p>
+            <p>We help establish what technologies you need to meet your short-term needs while recommending technologies that eventually come in handy when reaching your long-term goals. Our IT roadmaps include products, leadership, and processes, giving you a straightforward path to better business.</p>
+            <p>If you're unsure what direction to take your business, consider employing our IT road mapping services to get you started.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <a id="consultancy" class="the-anchor" data-hs-anchor="true"></a>
+      <div class="row">
+  
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-2 order-sm-2 order-md-2 order-lg-1 order-xl-1 ">
+          <div  class="content-container">
+            <h4>Consultancy services</h4>
+            <p>Our IT consultants work tirelessly to instruct clients on how to best use information technology to meet their business objectives. Moreso IT Services provide businesses with the necessary direction and guidance to help them make informed and productive IT decisions. We support the designing and installation of new technology systems as well as assisting clients in determining whether or not a transition to newer technologies is necessary. Our expertise in modern technology and how it works – combined with our understanding of your business – means we can provide realistic input that's bound to secure success.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 order-1 order-sm-1 order-md-1 order-lg-2 order-xl-2">
+          <div  class="img-container mb-5">
+            <img  class="mx-auto"  src="img/svg/services-icon4.png" alt="">
+          </div>
+        </div>
         
+      </div>
+
+      <a id="projectmanagement" class="the-anchor" data-hs-anchor="true"></a>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="img-container mb-5">
+            <img  class="mx-auto"  src="img/svg/services-icon3.png" alt="">
+          </div>
         </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div  class="content-container">
+            <h4>Project management</h4>
+            <p>Is your business currently in the midst of a complicated IT project? Good project management ensures you employ the necessary processes, methods, skills, knowledge and experience to achieve project objectives. Our IT consultants can provide you with the who, what, and where to manage your IT projects from start to finish. We work alongside businesses until the project is fully executed, examining the results to determine whether everything the company set out to do is achieved. By employing our project management service, you can:</p>
+            <ul>
+              <li>Deliver projects on time</li>
+              <li>Remain within budget</li>
+              <li>Reduce project costs</li>
+              <li>Minimise downtime</li>
+              <li>Avoid common mistakes</li>
+            </ul>
+          </div>
+        </div>
+        
       </div>
     </div>
-  </div>
-
-</header>
-
-
+  </section>
 
 
 <!-- *************************************************************************
-SERVICES SECTION 1
+SECTION 5
 ********************************************************************************-->
-<section class="about-section1">
+<section class="services-section5 ">
+    <div class="container">
+      <div class="img-container"><img src="img/svg/services-overlap.png" alt=""></div>
+      <h2>Let Us Help Improve Your Business Operations</h2>
+      <div class="row">
+        
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="paragraph-container">
+            <p>Moreso IT Services is committed to providing clients with fully managed IT infrastructure solutions that allow them to monitor, manage, and maintain their IT environment. We can improve your business operations by monitoring technology outputs and identifying problems and ways to augment systems with new technologies. We then work with IT departments to oversee the day-to-day maintenance of your infrastructure and ensure it’s used in a way that guarantees exceptional ongoing performance.</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <div class="paragraph-container">
+            <p>Risk management plays a huge part in what we do as our consultants work to help businesses identify IT weaknesses and vulnerabilities. We provide expert recommendations on resolving these problems and implementing positive change. By forecasting and mitigating risk, we're continually helping businesses to capitalise on new opportunities and giving them a competitive advantage in their industry.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- CONTACT US -->
+<section class="contact-section2">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 order-last order-sm-last order-md-last order-lg-first">
-        <p class="pt-5 mt-5">A successful marketing strategy combines several practices, including content management, branding, search engine optimisation, and social media marketing, that work in conjunction with each other. Social Wheel Services synchronises all aspects of marketing that you could need, centred around one common goal: growth. Once you enlist our services, you need not go elsewhere. </p>
-      </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 order-first order-sm-first order-md-first order-lg-last">
-        <img class="mx-auto" src="img/serives1.png" alt="">
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- *************************************************************************
-SERVICES SECTION 2
-********************************************************************************-->
-<section class="section">
-  <div class="container">
-
-    <div class="row mb-5 d-flex justify-content-center">
-      <div class="col-12 d-flex justify-content-center">
-        <h3 class="orange">OUR CORE SERVICE OFFERINGS</h3>
-      </div>
-    </div>
-      
-    <div class="row mb-5 mt-5">
-      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5  d-flex align-items-center">
-        <img class="mx-auto mb-5" src="img/services-icon1.png" alt="">
-      </div>
-      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
-        <h3 class="orange">Digital Marketing</h3>
-        <p>Our team leverages the latest digital marketing trends and techniques to help you achieve any business objective.
-          With significant experience facilitating brands to establish and increase their online presence, your brand could be
-          the next. We work closely with you to create a digital marketing strategy that gives you the competitive edge you
-          need.</p>
-      </div>
-      
-      </div>
-
-
-      <div class="row mb-5">
-        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 d-flex align-items-center">
-          <img class="mx-auto mb-5 sub-img" src="img/services-icon2.png" alt="">
-        </div>
-        <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
-          <div class="category"><h6>Digital Marketing</h6></div>
-          <h3  class="orange">Social Media Marketing</h3>
-          <p>Today, a brand cannot expect to increase awareness or achieve growth without a solid social media presence. When you choose to work with us, we study your target audience and brand voice to carefully curate a tailored social media strategy. Our team then works with you to decide the posting schedule to connect with consumers and increase engagement and the social media channels where to post, Facebook, Instagram, LinkedIn, or Twitter, that resonate with your brand. </p>
-          <ul>
-            <li>Social media posting</li>
-            <li>Ad creation</li>
-            <li>Audience segmentation</li>
-            <li>Ad testing and optimisation</li>
-          </ul>
-        </div>
-   </div>
-
-   <div class="row mb-5">
-    <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5  d-flex align-items-center">
-      <img class="mx-auto mb-5 sub-img" src="img/services-icon3.png" alt="">
-    </div>
-    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
-      <div class="category"><h6>Digital Marketing</h6></div>
-      <h3 class="orange">Email Marketing</h3>
-      <p>Email marketing is a targeted way to engage consumers to create brand awareness for product launches and repeat sales. Our team keeps your marketing strategy in mind when deciding which emails to send clients to maintain a consistent brand voice that evokes familiarity and ensures customer loyalty. Our team has the relevant knowledge to decide on the recipient list, when to send out the message and the frequency of email marketing for best results. </p>
-      <ul>
-        <li>Email list building</li>
-        <li>Email content creation</li>
-        <li>Email automation</li>
-      </ul>
-    </div>
-
-    </div>
-
-
-    <div class="row mb-5">
-      <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 d-flex align-items-center">
-        <img class="mx-auto mb-5 sub-img" src="img/services-icon4.png" alt="">
-      </div>
-      <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
-        <div class="category"><h6>Digital Marketing</h6></div>
-        <h3  class="orange">Marketing Analytics</h3>
-        <p>Social Wheel Services provides digital marketing services that are easily traceable and measurable. We use specialised marketing analytics to check user behaviour in detail to fulfil our promise of making data-driven decisions. This ensures that our clients can see the progress in numbers and enjoy the peace of mind that their brand's marketing is in good hands. Our team analyses this data to make strategic decisions, including changes and improvements in the existing digital marketing strategy, to achieve an excellent bottom line for your company. </p>
-        <ul>
-          <li>Better budget allocation</li>
-          <li>Campaign optimisation</li>
-          <li>A/B Testing</li>
-          <li>Customer segmentation</li>
-        </ul>
-      </div>
- </div>
-
-
- <div class="row mb-5">
-  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7  order-last order-sm-last order-md-first order-lg-first">
-    <h3 class="orange">Search Engine Marketing</h3>
-    <p>We offer SEM services to help your brand rank higher on the top organic search engines. Start a successful PPC
-      campaign, boost online visibility, and ensure your website is seen with our carefully curated search engine
-      marketing strategy tailored to your niche.</p>
-    <ul>
-      <li>SEO</li>
-      <li>Display advertising</li>
-      <li>Keyword analysis</li>
-      <li>Remarketing search ads</li>
-      <li>Google ads</li>
-    </ul>
-  </div>
-  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 order-first order-sm-first order-md-last order-lg-last d-flex align-items-center">
-    <img class="mx-auto mb-5" src="img/services-icon5.png" alt="">
-  </div>
-  </div>
-
-
-  <div class="row mb-5">
-    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 order-last order-sm-last order-md-first order-lg-first">
-      <h3  class="orange">Search Engine Optimisation </h3>
-      <p>Drive 100% organic traffic to your website, increasing ROI with the latest SEO techniques. Our SEO experts work
-        with you closely to create a custom strategy to ensure you maximise SEO benefits. Do away with redundant SEO
-        tactics and increase brand visibility to gain a competitive advantage in the industry within a limited budget.</p>
-      <ul>
-        <li>On page SEO</li>
-        <li>Off-page SEO</li>
-        <li>Technical SEO</li>
-        <li>Local SEO</li>
-        <li>Ecommerce SEO</li>
-      </ul>
-    </div>
-    <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 order-first order-sm-first order-md-last order-lg-last d-flex align-items-center">
-      <img class="mx-auto mb-5" src="img/services-icon6.png" alt="">
-    </div>
-
-</div>
-
-
-<div class="row mb-5">
-  <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 d-flex align-items-center">
-    <img class="mx-auto mb-5" src="img/services-icon7.png" alt="">
-  </div>
-  <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7  ">
-    <h3 class="orange">Content Management </h3>
-    <p>Create strategic content that ensures visibility and drives traffic to your website. Our SEO and content strategists
-      will create a content roadmap for you to follow, vetting the content you post to maximise your chances of success.
-      Learn when and how to post to make your content stand out among all the others.</p>
-    <ul>
-      <li>Blog post creation</li>
-      <li>Landing page content creation</li>
-      <li>Social media content creation</li>
-      <li>Content marketing</li>
-      <li>Content posting</li>
-    </ul>
-  </div>
-
-  </div>
-
-
-  <div class="row mb-5 ">
-    <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 d-flex align-items-center">
-      <img class="mx-auto mb-5 sub-img" src="img/services-icon8.png" alt="">
-    </div>
-    <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
-      <div class="category2"><h6>Content Management</h6></div>
-      <h3  class="orange">Digital PR</h3>
-      <p>With the advent of the digital era, there is nothing more imperative for a business than an online presence. We leverage the latest tools and methods to create brand awareness for you and help you reach a larger audience within a limited budget. Our creative team will try and use the endless opportunities for online promotion that suit your brand and the industry in which it operates. Social Wheel Services combines the best social media, content, and social engine marketing methods to create a long-term online presence. </p>
-      <ul>
-        <li>Relationship building</li>
-        <li>Business profiling</li>
-        <li>Developing press releases online</li>
-        <li>Influencer marketing</li>
-        <li>Online content development and publishing</li>
-      </ul>
-    </div>
-</div>
-</section>
-
-
-
-
-
-
-<!-- *************************************************************************
-SERVICES SECTION 3
-********************************************************************************-->
-<section class="about-section1">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 order-last order-sm-last order-md-last order-lg-first">
-        <h3 class="orange">A COLLABORATIVE DIGITAL MARKETING EFFORT</h3>
-        <p class="pt-2">At the heart of our services is our marketing team, which invests all of its research, efforts, and creativity in every project we undertake. We ensure a collaborative effort combining various marketing aspects to create a coherent digital marketing strategy for your business. We ensure that every single strategy like SEO, right down to content creation, is conducive to the goals that you want to achieve. Our team is a handpicked selection of the best marketing strategists, content creators, SEO, and SEM experts that relay measurable results. This diverse team of talents will ensure that we create a solid, sustainable, and effective marketing strategy to set your business up for success. </p>
-      </div>
-      <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 order-first order-sm-first order-md-first order-lg-last">
-        <img class="mx-auto" src="img/services2.png" alt="">
+      <div class="col-12 text-center">
+        <h2 class="text-white">Get in touch with us today</h2>
+        <p>To find out more about our IT services or arrange a consultation, be sure to contact us. Our team are always on hand to answer any questions you may have and to provide expert advice and guidance. </p>
+        <button class="glow-on-hover" type="button" onclick="location.href='contact.html'">Contact Us</button>
       </div>
     </div>
   </div>
 </section>
-
-<!-- *************************************************************************
-CONTACT FORM
-********************************************************************************-->
 
 
 
@@ -316,52 +319,52 @@ FOOTER
   <div class="container">
     
     <div class="row d-flex justify-content-center">
-      <a href="index.html"><img src="img/logo-w.png" alt=""></a>
+      <img src="img/logo.png" width=10% alt="">
     </div>
 
-    <div class="z-footer-link footer-link row d-flex justify-content-center">
-      <ul class="navbar-nav">
-        <li class="nav-item z-nav-item "><a href="index.html">Home</a></li>
-        <li class="nav-item z-nav-item "><a href="about.html">About Us</a></li>
-        <li class="nav-item z-nav-item "><a >Services</a></li>
-        <li class="nav-item z-nav-item "><a href="contact.html">Contact Us</a></li>
-      </ul>
+    <div class="row d-flex justify-content-center">
+      <div  class=" mt-5 footer-link ">
+        <ul class="navbar-nav z-navbar-nav d-flex flex-row justify-content-center justify-content-sm-center justify-content-lg-end">
+          <li class="nav-item z-nav-item "><a href="index.html" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
+          <li class="nav-item z-nav-item "><a href="about.html" class="nav-link scroll-link">About</a></li>
+          <li class="nav-item z-nav-item "><a  class="nav-link scroll-link" >Services</a></li>
+          <li class="nav-item z-nav-item "><a href="contact.html"  class="nav-link scroll-link" >Contact Us</a></li>
+        </ul>
+      </div>
     </div>
-
-
     
-    <div class="row d-flex justify-content-center"><p class=" ">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Social Wheel Services. All Rights Reserved.</p></div>
+    <div class="row d-flex justify-content-center"><p class=" pb-3">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Moreso Services. All Rights Reserved.</p></div>
   </div>
 </footer>
+
+
+
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/wow.js"></script>
 <script src="js/gsap.min.js"></script>
-<script src="js/customAnimation.js"></script>
+
+<script src="https://cartomanzia-tarocchi.com/wp-content/plugins/giochi-carte/public/js/DrawSVGPlugin.min.js"></script>
+
 <script src="js/main.js"></script>
-<script src="js/typeAnimation.js"></script>
 <script>
-
-
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
   
-  $('.mybtnLink').on('click', function(event) {
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+
+$('.mybtnLink').on('click', function(event) {
     event.preventDefault(); 
     var url = $(this).data('target');
     location.replace(url);
 });
 
-$(function () {
-  $(document).scroll(function () {
-    var $nav = $(".fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-  });
-});
 
-function myFunction(x) {
-  x.classList.toggle("change");
-}
 
 
   </script>
