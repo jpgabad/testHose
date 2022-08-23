@@ -75,6 +75,7 @@ left: 9px;
   .home-section1 .obj1{
     position: absolute;
     right: 0px;
+    display: none;
   }
 
   .home-section1 .obj2{
